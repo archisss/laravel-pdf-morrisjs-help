@@ -1,5 +1,6 @@
 <?php
 
+use App\Description;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -11,6 +12,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+    	Description::truncate();
+
+        factory(Description::class, 20)->create();
     }
 }

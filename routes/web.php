@@ -13,8 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/ver-pdf', 'HomeController@pdf')->name('pdf.index');
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('PDF');
 });
 
 Auth::routes();

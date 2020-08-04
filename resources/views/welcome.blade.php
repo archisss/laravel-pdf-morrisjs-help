@@ -91,6 +91,7 @@
                 <div class="links pad">
                     <p>Explicación: Quiero crear un formulario con servicios y que contenga en otra tabla relacionada todas las descripciones que desee agregar el cliente a tal servicio. Ejemplo: Crear un servico de "limpieza" y como descripción de ese servicio agregar 4 inputs nuevos para describir que contiene tal servicio de limpieza.</p>
                     <a href="/agregar-servicio"> <button class="btn btn-primary">Resolver</button></a>
+                    <a href="/servicios"> <button class="btn btn-primary">Resolver</button></a>
                 </div>
             </div>
         </div>
