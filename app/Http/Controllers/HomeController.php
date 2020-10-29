@@ -35,4 +35,9 @@ class HomeController extends Controller
         $pdf = \PDF::loadView('PDF-VIEW', compact('descriptions'));
         return $pdf->stream();
     }
+
+    public function datatables()
+    {
+        return 2;
+    }
 }

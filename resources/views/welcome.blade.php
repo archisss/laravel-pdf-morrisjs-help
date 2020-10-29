@@ -85,13 +85,23 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                  Laravel
+                  Freelance | Laravel
                 </div>
-
-                <div class="links pad">
-                    <p>Explicación: Quiero crear un formulario con servicios y que contenga en otra tabla relacionada todas las descripciones que desee agregar el cliente a tal servicio. Ejemplo: Crear un servico de "limpieza" y como descripción de ese servicio agregar 4 inputs nuevos para describir que contiene tal servicio de limpieza.</p>
-                    <a href="/agregar-servicio"> <button class="btn btn-primary">Resolver</button></a>
-                    <a href="/servicios"> <button class="btn btn-primary">Resolver</button></a>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="links pad">
+                            <h1>Ejercicio #1</h1>
+                            <p>Crear PDF Dinámico</p>
+                            <a href="/resolver-pdf"> <button class="btn btn-primary">Resolver</button></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="links pad">
+                            <h1>Ejercicio #2</h1>
+                            <p>Crear Gráfico Dinámico</p>
+                            <a href="/resolver-grafico"> <button class="btn btn-primary">Resolver</button></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

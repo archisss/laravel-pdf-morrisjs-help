@@ -82,4 +82,17 @@ class ServicioController extends Controller
     {
         //
     }
+
+    public function suscriptions()
+    {
+        $stripe = new \Stripe\StripeClient(
+            'sk_test_wprPw7Qzw3CTitXKR50i5PPf00HT7OheN9'
+        );
+
+        $suscriptions = $stripe->plans->all();
+
+        return view('pricing', [
+            'suscriptions' => $suscriptions
+        ]);
+    }
 }

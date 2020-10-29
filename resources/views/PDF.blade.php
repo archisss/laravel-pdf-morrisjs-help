@@ -13,7 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
+                    <p>Descripción: Quiero lograr que la barra lateral roja del PDF aparezca dinámicamente en todas las páginas, por ejemplo si el pdf tiene 5 páginas, que la barra lateral roja se incluya en las 5 páginas en vez de solo en la última página (actualmente sólo aparece en la última página).</p>
                    	<a href="{{ route('pdf.index') }}"><button class="btn btn-primary">Ver PDF</button></a>
                 </div>
             </div>

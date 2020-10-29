@@ -15,6 +15,8 @@
                     @endif
 
                     You are logged in!
+                    <br>
+                    <a href="/pricing"><button class="btn btn-primary">Pricing</button></a>
                 </div>
             </div>
         </div>

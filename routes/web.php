@@ -2,22 +2,27 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+Route::get('/resolver-pdf', function(){
+	return view('PDF');
+});
+
+Route::get('/resolver-grafico', function(){
+	return view('grafico');
+});
 
 Route::get('/ver-pdf', 'HomeController@pdf')->name('pdf.index');
 
 Route::get('/', function () {
-    return view('PDF');
+    return view('welcome');
 });
+
+Route::get('/datatables', 'HomeController@datatables');
+
+Route::get('/pricing', function(){
+	return view('pricing');
+});
+
+Route::get('/suscriptions', 'ServicioController@suscriptions');
 
 Auth::routes();
 
